@@ -142,6 +142,11 @@ class Imovel
      */
     public $Foto = [];
     /**
+     * Summary of FotoEmpreendimento
+     * @var array
+     */
+    public $FotoEmpreendimento = [];
+    /**
      * Summary of Video
      * @var array
      */
