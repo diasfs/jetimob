@@ -1,0 +1,19 @@
+{
+    "name": "diasfs/jetimob",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "": "./src"
+        }
+    },
+    "license": "MIT",
+    "type": "library",    
+    "config": {
+        "platform": {
+            "php": "5.4"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^5.3"
+    }
+}
