@@ -1,0 +1,17 @@
+@key = h1d4Ey4ps7q5fezIPr5Tr9L7GRzv2sInOVPPhbahAg0IWnZAiLfHxIHZFTFSc2eN
+@public_key= ygPKiefAvdFRI9LTCpnj3sytT620nDE5Q367DFQkkGx9arDOTUUb6VIUHRsIv49o
+@private_key = R9oBMXvfmsSlJWTP4j7DZb6lzD0b3FMqIqabb3ouSYuP7aGdHHN9EvRo4FotJU2c
+
+##
+GET https://api.jetimob.com/webservice/{{key}}/corretores
+?v=6
+&page=1
+&pageSize=150
+
+###
+
+
+GET https://api.jetimob.com/leads/{{public_key}}
+?v=6
+&pageSize=1
+Authorization-Key: {{private_key}}
